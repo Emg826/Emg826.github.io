@@ -3,6 +3,6 @@ Thank you for your interest in participating in our experiment on user interface
 
 **You consent to and begin the experiment by clicking "I agree to participate. Let's begin!"**
 
-[<img src="imgs/i_agree_button_300by300.png" alt="I agree and consent to participate. Let's begin!">](https://www.google.com)
+[<img src="imgs/i_consent_button_200by200.png" alt="I agree and consent to participate. Let's begin!">](https://www.google.com)
 
 *Questions and concerns can be direct to Eric Gabriel (egabriel19@wooster.edu).*
