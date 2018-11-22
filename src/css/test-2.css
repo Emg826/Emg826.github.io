@@ -1,0 +1,167 @@
+/* One way cascading style sheets (CSS) can be applied to HTML is by
+assigning classes to HTML elements [e.g., <input class="classNameHere">].
+It's essentially an object oriented approach. This is the approach I'm taking
+for the calculator. I already assigned classes to the relevant HTML elements,
+so all that we have to do is edit the style sets for those classes, which are
+below. The "." indicates that this style set is for a class, and the
+word(s) to the right of the "." is the actual class name assigned in the
+HTML of the webpage. I tried to make the class names as clear a possible
+so that we don't have to look at the HTML at all, so the class names should
+tell you what you're styling on the HTML/JavaScript calculator.
+
+Note: there is a hierarchy of sorts since there can be multiple classes per
+element. The most specific class will take precedence over all prior classes.
+For instance, .one > .number > .key, at least I think.
+
+
+Note: I commented out a lot of other options that are available. This is
+intentional. It's just good to be aware of all our options. */
+
+/* Google has an API through which free web fonts can be accessed.
+ * see: https://www.w3schools.com/howto/howto_google_fonts.asp for details */
+@import url('http://fonts.googleapis.com/css?family=Sofia');
+@import url('http://fonts.googleapis.com/css?family=Bonbon');
+@import url('http://fonts.googleapis.com/css?family=Codystar');
+
+
+
+/* Note: pretty much any attribute can be used for any class. Just pointing
+this out since I haven't listed every attribute for each class */
+
+.page-background {
+	/* background-color: rgb(50, 150, 250); */
+	/* background-image: linear-gradient(to bottom, orange, yellow, rgb(20, 20, 20)); */
+
+/* images go into imgs folder and can be accessed as so: */
+	background-image: url("../../imgs/minecraft-block.jpg");
+	background-repeat: repeat-x repeat-y;
+}
+
+.header {
+	background-color: gray;
+	font-family: 'Codystar';  /* one of the Google fonts */
+	color: blue;
+	font-size: 22px;
+}
+
+.prompt-box {
+	background-color: gray;
+	font-family: 'Codystar';
+	color: red;
+	font-size: 14px;
+}
+
+
+
+
+.calculator-background {
+	/* background-color: rgb(255, 255, 255); */
+	background-image: linear-gradient(to bottom, pink, green, brown, gray);
+	/* background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg"); */
+}
+
+.calculator-display {
+	/* background-color: rgb(100, 255, 255); */
+	/* background-image: linear-gradient(to bottom, orange, yellow, rgb(20, 20, 20)); */
+	background-image: url("../../imgs/milky-way-pixbay.jpg");
+	color: red;  /* text color */
+	text-align: center;
+	border-width:  6px;
+	border-color: white;
+	border-radius: 0px;
+	font-family: 'Sofia';
+	font-size: 21px;
+	padding: 5px
+}
+
+.key {
+	/* background-color: gray; */
+	/* background-color: rgba(200, 0, 255, 0.25); */
+	/* background-image: linear-gradient(to bottom, red, black, rgb(0, 255, 255)); */
+	/* background-image: url("../../imgs/milky-way-pixbay.jpg"); */
+	color: orange;  /* text color */
+	text-align: center;
+	border-width: 5px;
+	border-color: red;
+	font-family: 'Bonbon';
+	font-size: 22px;
+	padding: 10px;
+}
+
+/* These are just two simple feedback things for the keys. When the cursor
+hovers over a key, it'll style that key as so in .key:hover. When a key is
+clicked, it will style as son in .key:active. Note, these are not permanent
+changes; will revert back to the orignal style after stop hovering or after
+click */
+.key:hover {
+	box-shadow: 0 0 8px 8px rgba(255, 255, 255, 0.4);
+}
+.key:active {
+	box-shadow: 0 0 8px 8px rgba(0, 0, 0, 1.0);
+}
+.key:focus {
+	outline: 0;
+}
+
+
+
+
+
+/* The next few style sets are for different kinds of keys. Note, pretty much
+all of the same attributes from the .key styling also apply here AND will be
+used unless replaced in one of the below sets. */
+
+/* this is for styling the function keys like sqrt, ln, exp, and so on*/
+.function {
+	background-color: white;
+}
+
+/* this is for styling the symbol keys like (, ., +, -, and so on */
+.symbol {
+	/* background-color: rgba(23, 214, 45, 0.5); */
+	background-image: linear-gradient(to right, yellow, black, red);
+}
+
+/* this is for styling the number eys, 0 through 9 */
+.number {
+	/* background-color: blue; */
+	background-image: linear-gradient(to top, white, blue, red);
+
+}
+
+/* this is for styling the utility keys: clear, backspace, enter */
+.utility {
+	/* background-color: orange; */
+	background-image: linear-gradient(to left, black, gray, white);
+}
+
+/* these are for editing the individual keys, which is unnecessary, but if
+you really wanted to make an ugly interface, you could make each key different. */
+
+/* .exp{}
+.ln{}
+.sqrt{}
+.sq{}
+.lparen{}
+.clear{}
+.seven{}
+.four{}
+.one{}
+.cos{}
+.eight{}
+.five{}
+.two{}
+.decimal{}
+.sin{}
+.backspace{}
+.nine{}
+.six{}
+.three{}
+.plusSlashMinus{}
+.tan{}
+.divide{}
+.multiply{}
+.minus{}
+.plus{}
+.rparen{}
+.enter{} */
