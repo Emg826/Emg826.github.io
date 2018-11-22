@@ -32,7 +32,9 @@ in quotes, e.g., 'Sofia' .
 this out since I haven't listed every attribute for each class */
 
 .page-background {
-	/* background-color: rgb(50, 150, 250); */
+	background-color: rgb(0, 0, 0);  /* leave this here not matter what you do for
+	background: it lessnes the blinding whiteflash that occurs when a new page loads */
+
 	/* background-image: linear-gradient(to bottom, orange, yellow, rgb(20, 20, 20)); */
 
 /* images go into imgs folder and can be accessed as so: */
