@@ -25,9 +25,7 @@ to the font you want to use:
 . Then, for the font-family attribute in a CSS set, just provide the font name
 in quotes, e.g., 'Sofia' .
  */
-@import url("http://fonts.googleapis.com/css?family=Sofia");
-@import url("http://fonts.googleapis.com/css?family=Bonbon");
-@import url("http://fonts.googleapis.com/css?family=Codystar");
+
 
 
 
