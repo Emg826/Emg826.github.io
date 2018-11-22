@@ -18,10 +18,16 @@ Note: I commented out a lot of other options that are available. This is
 intentional. It's just good to be aware of all our options. */
 
 /* Google has an API through which free web fonts can be accessed.
- * see: https://www.w3schools.com/howto/howto_google_fonts.asp for details */
-@import url('http://fonts.googleapis.com/css?family=Sofia');
-@import url('http://fonts.googleapis.com/css?family=Bonbon');
-@import url('http://fonts.googleapis.com/css?family=Codystar');
+see: https://www.w3schools.com/howto/howto_google_fonts.asp for details.
+To use, need to go into HTML in <header> section and add a <link> element
+to the font you want to use:
+<link href="http://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+. Then, for the font-family attribute in a CSS set, just provide the font name
+in quotes, e.g., 'Sofia' .
+ */
+@import url("http://fonts.googleapis.com/css?family=Sofia");
+@import url("http://fonts.googleapis.com/css?family=Bonbon");
+@import url("http://fonts.googleapis.com/css?family=Codystar");
 
 
 
@@ -38,14 +44,14 @@ this out since I haven't listed every attribute for each class */
 }
 
 .header {
-	background-color: gray;
+	background-color: white;
 	font-family: 'Codystar';  /* one of the Google fonts */
 	color: blue;
 	font-size: 22px;
 }
 
 .prompt-box {
-	background-color: gray;
+	background-color: white;
 	font-family: 'Codystar';
 	color: red;
 	font-size: 14px;
@@ -66,12 +72,12 @@ this out since I haven't listed every attribute for each class */
 	background-image: url("../../imgs/milky-way-pixbay.jpg");
 	color: red;  /* text color */
 	text-align: center;
-	border-width:  6px;
+	border-width:  4px;
 	border-color: white;
 	border-radius: 0px;
 	font-family: 'Sofia';
-	font-size: 21px;
-	padding: 5px
+	font-size: 20px;
+	padding: 2px;
 }
 
 .key {
@@ -79,12 +85,12 @@ this out since I haven't listed every attribute for each class */
 	/* background-color: rgba(200, 0, 255, 0.25); */
 	/* background-image: linear-gradient(to bottom, red, black, rgb(0, 255, 255)); */
 	/* background-image: url("../../imgs/milky-way-pixbay.jpg"); */
-	color: orange;  /* text color */
+	color: black;  /* text color */
 	text-align: center;
-	border-width: 5px;
+	border-width: 4px;
 	border-color: red;
 	font-family: 'Bonbon';
-	font-size: 22px;
+	font-size: 19px;
 	padding: 10px;
 }
 
@@ -97,7 +103,7 @@ click */
 	box-shadow: 0 0 8px 8px rgba(255, 255, 255, 0.4);
 }
 .key:active {
-	box-shadow: 0 0 8px 8px rgba(0, 0, 0, 1.0);
+	box-shadow: 0 0 8px 8px rgba(255, 255, 255, 0.8);
 }
 .key:focus {
 	outline: 0;
@@ -113,19 +119,20 @@ used unless replaced in one of the below sets. */
 
 /* this is for styling the function keys like sqrt, ln, exp, and so on*/
 .function {
-	background-color: white;
+	background-color: pink;
+	font-family: 'Codystar';
 }
 
 /* this is for styling the symbol keys like (, ., +, -, and so on */
 .symbol {
 	/* background-color: rgba(23, 214, 45, 0.5); */
-	background-image: linear-gradient(to right, yellow, black, red);
+	background-image: linear-gradient(to right, yellow, white, red);
 }
 
 /* this is for styling the number eys, 0 through 9 */
 .number {
 	/* background-color: blue; */
-	background-image: linear-gradient(to top, white, blue, red);
+	background-image: linear-gradient(to top, blue, white, red);
 
 }
 
@@ -133,6 +140,7 @@ used unless replaced in one of the below sets. */
 .utility {
 	/* background-color: orange; */
 	background-image: linear-gradient(to left, black, gray, white);
+	color: limegreen;
 }
 
 /* these are for editing the individual keys, which is unnecessary, but if
@@ -164,4 +172,4 @@ you really wanted to make an ugly interface, you could make each key different. 
 .minus{}
 .plus{}
 .rparen{}
-.enter{} */
+.enter{}  */
