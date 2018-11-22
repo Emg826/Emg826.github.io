@@ -6,27 +6,27 @@ function addChar(input, character) {
 }
 
 function cos(form) {
-	form.display.value = Math.cos(form.display.value);
+	form.display.value = Math.cos(eval(form.display.value));
 }
 
 function sin(form) {
-	form.display.value = Math.sin(form.display.value);
+	form.display.value = Math.sin(eval(form.display.value));
 }
 
 function tan(form) {
-	form.display.value = Math.tan(form.display.value);
+	form.display.value = Math.tan(eval(form.display.value));
 }
 
 function sqrt(form) {
-	form.display.value = Math.sqrt(form.display.value);
+	form.display.value = Math.sqrt(eval(form.display.value));
 }
 
 function ln(form) {
-	form.display.value = Math.log(form.display.value);
+	form.display.value = Math.log(eval(form.display.value));
 }
 
 function exp(form) {
-	form.display.value = Math.exp(form.display.value);
+	form.display.value = Math.exp(eval(form.display.value));
 }
 
 function deleteChar(input) {

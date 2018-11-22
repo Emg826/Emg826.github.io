@@ -3,9 +3,9 @@
   <head>
 
   <!-- IMPORT GOOGLE FONTS HERE AS SO -->
-  <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Bonbon" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Codystar" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Miltonian" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Eater" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Schoolbell" rel="stylesheet">
 
 
   <meta charset="utf-8">
@@ -35,16 +35,17 @@
   <body class="page-background">
 
   <form></form>
+  <center>
   <h1 class="header">Header for Test-2.html</h1>
-   <p class="prompt-box">Test-2 Prompt: Calculate -tan(cos(sqrt(10*22))) asodijpf aosdjpf oas djpfoia sjdpofia jsdpof iajpsdoi fjapsodi jfpaoisdj</p>
-
+  <p class="prompt-box">Test-2 Prompt: Calculate -tan(cos(sqrt(10*22))) asodijpf aosdjpf oas djpfoia sjdpofia jsdpof iajpsdoi fjapsodi jfpaoisdj</p>
+  </center>
 
    <!-- The scientific calculator is an HTML table object. It came
         from: http://www.javascriptkit.com/script/cut42.shtml. -->
   <FORM NAME="sci-calc" >
   <TABLE class="calculator-background">
   <TR> <!-- This is the display screen -->
-    <TD COLSPAN="8" ALIGN="center"><INPUT class="calculator-display" NAME="display" VALUE="0" SIZE="35" MAXLENGTH="30"></TD>
+    <TD COLSPAN="8" ALIGN="center"><INPUT class="calculator-display" NAME="display" VALUE="0" SIZE="25" MAXLENGTH="40"></TD>
   </TR>
   <TR>
     <TD ALIGN="center"><INPUT class="key function exp" TYPE="button" VALUE="exp" ONCLICK="if (checkNum(this.form.display.value)) { exp(this.form) }"></TD>
@@ -84,7 +85,7 @@
   <TR>
     <TD ALIGN="center"><INPUT class="key utility clear" TYPE="button" VALUE="clear" ONCLICK="this.form.display.value = 0 "></TD>
     <TD ALIGN="center" COLSPAN="3"><INPUT class="key utility backspace" TYPE="button" VALUE="backspace" ONCLICK="deleteChar(this.form.display)"></TD>
-    <TD ALIGN="center"><INPUT class="key utility enter" TYPE="button" VALUE="   =   " NAME="enter" ONCLICK="if (checkNum(this.form.display.value)) { compute(this.form) }"></TD>
+    <TD ALIGN="center"><INPUT class="key utility enter" TYPE="button" VALUE=" = " NAME="enter" ONCLICK="if (checkNum(this.form.display.value)) { compute(this.form) }"></TD>
   </TR>
   </TABLE>
   </FORM>

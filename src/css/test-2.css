@@ -28,7 +28,6 @@ in quotes, e.g., 'Sofia' .
 
 
 
-
 /* Note: pretty much any attribute can be used for any class. Just pointing
 this out since I haven't listed every attribute for each class */
 
@@ -37,22 +36,28 @@ this out since I haven't listed every attribute for each class */
 	/* background-image: linear-gradient(to bottom, orange, yellow, rgb(20, 20, 20)); */
 
 /* images go into imgs folder and can be accessed as so: */
-	background-image: url("../../imgs/minecraft-block.jpg");
+	background-image: url("../../imgs/snake-skin.jpg");
 	background-repeat: repeat-x repeat-y;
 }
 
 .header {
 	background-color: white;
-	font-family: 'Codystar';  /* one of the Google fonts */
-	color: blue;
+	font-family: sans-serif;;  /* one of the Google fonts */
+	color: black;
 	font-size: 22px;
+	width: 70%;
+	border: 2px;
+	border-style: solid;
 }
 
 .prompt-box {
 	background-color: white;
-	font-family: 'Codystar';
-	color: red;
+	font-family: sans-serif;
+	color: black;
 	font-size: 14px;
+	width: 80%;
+	border: 5px;
+	border-style: solid;
 }
 
 
@@ -60,22 +65,26 @@ this out since I haven't listed every attribute for each class */
 
 .calculator-background {
 	/* background-color: rgb(255, 255, 255); */
-	background-image: linear-gradient(to bottom, pink, green, brown, gray);
+	background-image: url("../../imgs/lava.jpg");
 	/* background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg"); */
+
+	border-radius: 0px;
+	border-style: solid;
+	border-color: lightgreen;
 }
 
 .calculator-display {
 	/* background-color: rgb(100, 255, 255); */
 	/* background-image: linear-gradient(to bottom, orange, yellow, rgb(20, 20, 20)); */
-	background-image: url("../../imgs/milky-way-pixbay.jpg");
-	color: red;  /* text color */
+	background-image: url("../../imgs/wood.jpg");
+	color: lightgray;  /* text color */
 	text-align: center;
-	border-width:  4px;
-	border-color: white;
+	border-width: 4px;
+	border-color: purple;
 	border-radius: 0px;
-	font-family: 'Sofia';
+	font-family: 'Schoolbell';
 	font-size: 20px;
-	padding: 2px;
+	padding: 5px;
 }
 
 .key {
@@ -85,10 +94,10 @@ this out since I haven't listed every attribute for each class */
 	/* background-image: url("../../imgs/milky-way-pixbay.jpg"); */
 	color: black;  /* text color */
 	text-align: center;
-	border-width: 4px;
+	border-width: 2px;
 	border-color: red;
-	font-family: 'Bonbon';
-	font-size: 19px;
+	font-family: 'Eater';
+	font-size: 16px;
 	padding: 10px;
 }
 
@@ -97,16 +106,13 @@ hovers over a key, it'll style that key as so in .key:hover. When a key is
 clicked, it will style as son in .key:active. Note, these are not permanent
 changes; will revert back to the orignal style after stop hovering or after
 click */
-.key:hover {
-	box-shadow: 0 0 8px 8px rgba(255, 255, 255, 0.4);
-}
+
 .key:active {
-	box-shadow: 0 0 8px 8px rgba(255, 255, 255, 0.8);
+	box-shadow: 0 0 8px 8px rgba(0, 255, 255, 0.5);
 }
 .key:focus {
 	outline: 0;
 }
-
 
 
 
@@ -117,27 +123,29 @@ used unless replaced in one of the below sets. */
 
 /* this is for styling the function keys like sqrt, ln, exp, and so on*/
 .function {
-	background-color: pink;
-	font-family: 'Codystar';
+	background-image: url("../../imgs/weird-fractal.png");
+	font-family: 'Miltonian';
+	color: white;
 }
 
 /* this is for styling the symbol keys like (, ., +, -, and so on */
 .symbol {
 	/* background-color: rgba(23, 214, 45, 0.5); */
-	background-image: linear-gradient(to right, yellow, white, red);
+	background-image: linear-gradient(to bottom, indigo, green);
+	color: pink;
 }
 
 /* this is for styling the number eys, 0 through 9 */
 .number {
 	/* background-color: blue; */
-	background-image: linear-gradient(to top, blue, white, red);
+	background-image: linear-gradient(to top, yellow, pink, black);
 
 }
 
 /* this is for styling the utility keys: clear, backspace, enter */
 .utility {
 	/* background-color: orange; */
-	background-image: linear-gradient(to left, black, gray, white);
+	background-image: linear-gradient(to left, black, gray, blue);
 	color: limegreen;
 }
 
@@ -169,5 +177,5 @@ you really wanted to make an ugly interface, you could make each key different. 
 .multiply{}
 .minus{}
 .plus{}
-.rparen{}
-.enter{}  */
+.rparen{}  */
+.enter{ font-size: 25;}
