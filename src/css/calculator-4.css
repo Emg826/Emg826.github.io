@@ -38,8 +38,6 @@ this out since I haven't listed every attribute for each class */
 	/* background-image: linear-gradient(to bottom, orange, yellow, rgb(20, 20, 20)); */
 
 /* images go into imgs folder and can be accessed as so: */
-	background-image: url("../../imgs/snake-skin.jpg");
-	background-repeat: repeat-x repeat-y;
 }
 
 .header {
@@ -66,27 +64,25 @@ this out since I haven't listed every attribute for each class */
 
 
 .calculator-background {
-	/* background-color: rgb(255, 255, 255); */
-	background-image: url("../../imgs/lava.jpg");
+	background-color: white;
 	/* background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg"); */
 
 	border-radius: 0px;
-	border-style: solid;
-	border-color: lightgreen;
+	border-style: double;
+	border-color: black;
 }
 
 .calculator-display {
-	/* background-color: rgb(100, 255, 255); */
+	background-color: white;
 	/* background-image: linear-gradient(to bottom, orange, yellow, rgb(20, 20, 20)); */
-	background-image: url("../../imgs/wood.jpg");
-	color: lightgray;  /* text color */
-	text-align: center;
+	color: black;  /* text color */
+	text-align: right;
 	border-width: 4px;
-	border-color: purple;
+	border-color: black;
 	border-radius: 0px;
-	font-family: 'Schoolbell';
+	font-family: serif;
 	font-size: 20px;
-	padding: 5px;
+	padding: 3px;
 }
 
 .key {
@@ -97,9 +93,9 @@ this out since I haven't listed every attribute for each class */
 	color: black;  /* text color */
 	text-align: center;
 	border-width: 2px;
-	border-color: red;
-	font-family: 'Eater';
-	font-size: 16px;
+	border-color: black;
+	font-family: serif;
+	font-size: 20px;
 	padding: 10px;
 }
 
@@ -110,7 +106,7 @@ changes; will revert back to the orignal style after stop hovering or after
 click */
 
 .key:active {
-	box-shadow: 0 0 8px 8px rgba(0, 255, 255, 0.5);
+	box-shadow: 0 0 8px 8px rgba(200, 200, 200, 0.5);
 }
 .key:focus {
 	outline: 0;
@@ -125,30 +121,28 @@ used unless replaced in one of the below sets. */
 
 /* this is for styling the function keys like sqrt, ln, exp, and so on*/
 .function {
-	background-image: url("../../imgs/weird-fractal.png");
-	font-family: 'Miltonian';
-	color: white;
+	color: black;
+	background-color: gray;
+
 }
 
 /* this is for styling the symbol keys like (, ., +, -, and so on */
 .symbol {
 	/* background-color: rgba(23, 214, 45, 0.5); */
-	background-image: linear-gradient(to bottom, indigo, green);
-	color: pink;
+	color: black;
+	background-color: lightgray;
 }
 
 /* this is for styling the number eys, 0 through 9 */
 .number {
 	/* background-color: blue; */
-	background-image: linear-gradient(to top, yellow, pink, black);
 
 }
 
 /* this is for styling the utility keys: clear, backspace, enter */
 .utility {
 	/* background-color: orange; */
-	background-image: linear-gradient(to left, black, gray, blue);
-	color: limegreen;
+	color: black;
 }
 
 /* these are for editing the individual keys, which is unnecessary, but if
