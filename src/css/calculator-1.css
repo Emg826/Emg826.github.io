@@ -70,8 +70,8 @@ this out since I haven't listed every attribute for each class */
 	border-color: black;
 	table-layout: auto;
 	border-spacing: 0px;
-	border-collapse: collapse;	
-	column-gap: 2px;
+	border-collapse: collapse;
+	column-gap: 0px;
 	margin: 0px;
 	max-width: 70%;
 	border-spacing: 0;
@@ -91,7 +91,7 @@ this out since I haven't listed every attribute for each class */
 	font-size: 12pt;
 	padding: 4pt;
 	margin: 0px;
-	max-width: 88%;
+	max-width: 90%;
 }
 
 .key {
@@ -146,7 +146,7 @@ used unless replaced in one of the below sets. */
 /* this is for styling the number eys, 0 through 9 */
 .number {
 	/* background-color: blue; */
-	color: black;
+	color: blue;
 }
 
 /* this is for styling the utility keys: clear, backspace, enter */
