@@ -30,8 +30,20 @@ in quotes, e.g., 'Sofia' .
 
 /* Note: pretty much any attribute can be used for any class. Just pointing
 this out since I haven't listed every attribute for each class */
-.table {
+@media all and (max-width:500px){
+    table{
+        width:100%;
+    }
 
+    td{
+        display:block;
+        width:100%;
+    }
+
+    tr{
+        display:block;
+        margin-bottom:0px;
+    }
 }
 
 .page-background {
@@ -74,6 +86,7 @@ this out since I haven't listed every attribute for each class */
 	border-style: ridge;
 	border-color: black;
 	table-layout: auto;
+	column-gap: 10px;
 	margin: 0px;
 	max-width: 85%;
 	border-spacing: 0;
