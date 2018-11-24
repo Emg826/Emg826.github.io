@@ -139,6 +139,7 @@ used unless replaced in one of the below sets. */
 /* this is for styling the number eys, 0 through 9 */
 .number {
 	/* background-color: blue; */
+	color: blue;
 }
 
 /* this is for styling the utility keys: clear, backspace, enter */
