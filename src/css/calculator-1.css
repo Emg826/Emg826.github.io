@@ -73,8 +73,8 @@ this out since I haven't listed every attribute for each class */
 	border-radius: 20px;
 	border-style: ridge;
 	border-color: black;
-	width: 320px;
 	table-layout: auto;
+	margin: 0px;
 }
 
 .calculator-display {
@@ -89,6 +89,7 @@ this out since I haven't listed every attribute for each class */
 	font-family: 'Gugi';
 	font-size: 20px;
 	padding: 5px;
+	margin: 0px;
 }
 
 .key {
@@ -103,8 +104,10 @@ this out since I haven't listed every attribute for each class */
 	border-radius: 15px;
 	font-family: 'Gugi';
 	font-size: 16px;
-	padding: 12px;
+	padding: 10px;
+	margin: 0px;
 }
+
 
 /* These are just two simple feedback things for the keys. When the cursor
 hovers over a key, it'll style that key as so in .key:hover. When a key is
@@ -140,7 +143,7 @@ used unless replaced in one of the below sets. */
 /* this is for styling the number eys, 0 through 9 */
 .number {
 	/* background-color: blue; */
-	color: red;
+	color: white;
 }
 
 /* this is for styling the utility keys: clear, backspace, enter */
@@ -179,3 +182,8 @@ you really wanted to make an ugly interface, you could make each key different. 
 .plus{}
 .rparen{}  */
 .enter{ font-size: 25;}
+
+
+.wrapper {
+	width: 80vw;
+}
