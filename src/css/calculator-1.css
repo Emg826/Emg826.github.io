@@ -65,7 +65,7 @@ this out since I haven't listed every attribute for each class */
 
 .calculator-background {
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(100, 100, 100, 0.6));
-	border-radius: 20px;
+	border-radius: 16px;
 	border-style: ridge;
 	border-color: black;
 	table-layout: auto;
@@ -77,19 +77,19 @@ this out since I haven't listed every attribute for each class */
 }
 
 .calculator-display {
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(255, 255, 255, 0.3);
 	/* background-image: linear-gradient(to bottom, orange, yellow, rgb(20, 20, 20)); */
 	color: white;  /* text color */
 	text-align: right;
 	border-width: 2px;
 	border-color: black;
-	border-radius: 20px;
+	border-radius: 8px;
 	border-style: solid;
 	font-family: 'Gugi';
 	font-size: 12pt;
 	padding: 4pt;
 	margin: 0px;
-	max-width: 80%;
+	max-width: 88%;
 }
 
 .key {
@@ -101,10 +101,11 @@ this out since I haven't listed every attribute for each class */
 	text-align: center;
 	border-width: 2px;
 	border-color: black;
-	border-radius: 10px;
+	border-style: ridge;
+	border-radius: 8px;
 	font-family: 'Gugi';
 	font-size: 12pt;
-	padding: 3pt 2pt 3pt 2pt;
+	padding: 6pt 4pt 6pt 4pt;
 	margin: 0px;
 }
 
@@ -182,3 +183,9 @@ you really wanted to make an ugly interface, you could make each key different. 
 .plus{}
 .rparen{}  */
 .enter{ font-size: 25;}
+
+
+.td {
+	margin: 0px;
+	padding: 0px;
+}

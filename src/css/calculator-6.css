@@ -120,7 +120,7 @@ used unless replaced in one of the below sets. */
 
 /* this is for styling the function keys like sqrt, ln, exp, and so on*/
 .function {
-	border-color: black;
+	border-color: lightgray;
 	background-color: white;
 
 }
@@ -128,7 +128,7 @@ used unless replaced in one of the below sets. */
 /* this is for styling the symbol keys like (, ., +, -, and so on */
 .symbol {
 	background-color: cyan;
-	border-color: black;
+	border-color: lightgray;
 }
 
 /* this is for styling the number eys, 0 through 9 */
