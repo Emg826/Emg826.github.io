@@ -75,7 +75,8 @@ this out since I haven't listed every attribute for each class */
 	border-color: black;
 	table-layout: auto;
 	margin: 0px;
-	max-width: 95%;
+	max-width: 90%;
+	border-spacing: 2pt;
 }
 
 .calculator-display {
@@ -88,10 +89,10 @@ this out since I haven't listed every attribute for each class */
 	border-radius: 20px;
 	border-style: solid;
 	font-family: 'Gugi';
-	font-size: 13pt;
+	font-size: 12pt;
 	padding: 4pt;
 	margin: 0px;
-	max-width: 95%;
+	max-width: 80%;
 }
 
 .key {
@@ -145,7 +146,7 @@ used unless replaced in one of the below sets. */
 /* this is for styling the number eys, 0 through 9 */
 .number {
 	/* background-color: blue; */
-	color: pink;
+	color: black;
 }
 
 /* this is for styling the utility keys: clear, backspace, enter */
