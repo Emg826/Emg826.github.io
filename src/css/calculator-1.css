@@ -69,6 +69,8 @@ this out since I haven't listed every attribute for each class */
 	border-style: ridge;
 	border-color: black;
 	table-layout: auto;
+	border-spacing: 0px;
+	border-collapse: collapse;	
 	column-gap: 2px;
 	margin: 0px;
 	max-width: 70%;
@@ -105,7 +107,7 @@ this out since I haven't listed every attribute for each class */
 	border-radius: 8px;
 	font-family: 'Gugi';
 	font-size: 12pt;
-	padding: 6pt 4pt 6pt 4pt;
+	padding: 5pt 1pt 5pt 1pt;
 	margin: 0px;
 }
 
