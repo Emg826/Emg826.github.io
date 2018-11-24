@@ -81,7 +81,7 @@ this out since I haven't listed every attribute for each class */
 	background-color: rgba(255, 255, 255, 0.5);
 	/* background-image: linear-gradient(to bottom, orange, yellow, rgb(20, 20, 20)); */
 	color: white;  /* text color */
-	text-align: center;
+	text-align: right;
 	border-width: 2px;
 	border-color: black;
 	border-radius: 20px;
