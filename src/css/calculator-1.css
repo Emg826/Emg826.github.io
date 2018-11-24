@@ -30,6 +30,9 @@ in quotes, e.g., 'Sofia' .
 
 /* Note: pretty much any attribute can be used for any class. Just pointing
 this out since I haven't listed every attribute for each class */
+.table {
+	table-layout: fixed;
+}
 
 .page-background {
 	background-color: rgb(0, 0, 0);  /* leave this here not matter what you do for
