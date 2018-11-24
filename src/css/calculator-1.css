@@ -118,9 +118,7 @@ clicked, it will style as son in .key:active. Note, these are not permanent
 changes; will revert back to the orignal style after stop hovering or after
 click */
 
-.key:active {
-	box-shadow: 0 0 8px 8px rgba(255, 255, 255, 0.4);
-}
+
 .key:focus {
 	outline: 0;
 }
@@ -146,7 +144,7 @@ used unless replaced in one of the below sets. */
 /* this is for styling the number eys, 0 through 9 */
 .number {
 	/* background-color: blue; */
-	color: blue;
+	color: indigo;
 }
 
 /* this is for styling the utility keys: clear, backspace, enter */
