@@ -31,7 +31,7 @@ in quotes, e.g., 'Sofia' .
 /* Note: pretty much any attribute can be used for any class. Just pointing
 this out since I haven't listed every attribute for each class */
 .table {
-	table-layout: fixed;
+
 }
 
 .page-background {
@@ -68,12 +68,13 @@ this out since I haven't listed every attribute for each class */
 
 
 
-
 .calculator-background {
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(100, 100, 100, 0.6));
 	border-radius: 20px;
 	border-style: ridge;
 	border-color: black;
+	width: 320px;
+	table-layout: auto;
 }
 
 .calculator-display {
@@ -102,7 +103,7 @@ this out since I haven't listed every attribute for each class */
 	border-radius: 15px;
 	font-family: 'Gugi';
 	font-size: 16px;
-	padding: 10px;
+	padding: 12px;
 }
 
 /* These are just two simple feedback things for the keys. When the cursor
@@ -139,7 +140,7 @@ used unless replaced in one of the below sets. */
 /* this is for styling the number eys, 0 through 9 */
 .number {
 	/* background-color: blue; */
-	color: blue;
+	color: red;
 }
 
 /* this is for styling the utility keys: clear, backspace, enter */
