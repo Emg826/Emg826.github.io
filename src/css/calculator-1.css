@@ -43,6 +43,7 @@ this out since I haven't listed every attribute for each class */
 /* images go into imgs folder and can be accessed as so: */
 	background-image: url("../../imgs/milky-way-pixbay.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
 	background-position: top center;
 }
 
