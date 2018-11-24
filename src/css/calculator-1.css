@@ -81,7 +81,7 @@ this out since I haven't listed every attribute for each class */
 	background-color: rgba(255, 255, 255, 0.5);
 	/* background-image: linear-gradient(to bottom, orange, yellow, rgb(20, 20, 20)); */
 	color: white;  /* text color */
-	text-align: right;
+	text-align: center;
 	border-width: 2px;
 	border-color: black;
 	border-radius: 20px;
@@ -182,8 +182,3 @@ you really wanted to make an ugly interface, you could make each key different. 
 .plus{}
 .rparen{}  */
 .enter{ font-size: 25;}
-
-
-.wrapper {
-	width: 80vw;
-}
