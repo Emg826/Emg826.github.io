@@ -40,7 +40,6 @@ this out since I haven't listed every attribute for each class */
 /* images go into imgs folder and can be accessed as so: */
 	background-image: url("../../imgs/milky-way-pixbay.jpg");
 	background-repeat: no-repeat;
-	background-size: 1000px;
 	background-position: top center;
 }
 
@@ -79,13 +78,13 @@ this out since I haven't listed every attribute for each class */
 	/* background-image: linear-gradient(to bottom, orange, yellow, rgb(20, 20, 20)); */
 	color: white;  /* text color */
 	text-align: right;
-	border-width: 4px;
+	border-width: 2px;
 	border-color: black;
 	border-radius: 20px;
 	border-style: solid;
 	font-family: 'Gugi';
-	font-size: 22px;
-	padding: 8px;
+	font-size: 20px;
+	padding: 5px;
 }
 
 .key {
@@ -100,7 +99,7 @@ this out since I haven't listed every attribute for each class */
 	border-radius: 15px;
 	font-family: 'Gugi';
 	font-size: 16px;
-	padding: 12px;
+	padding: 10px;
 }
 
 /* These are just two simple feedback things for the keys. When the cursor
