@@ -75,12 +75,13 @@ this out since I haven't listed every attribute for each class */
 	border-color: black;
 	table-layout: auto;
 	margin: 0px;
-	max-width: 90%;
-	border-spacing: 2pt;
+	max-width: 85%;
+	border-spacing: 0;
+
 }
 
 .calculator-display {
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(0, 0, 0, 0.3);
 	/* background-image: linear-gradient(to bottom, orange, yellow, rgb(20, 20, 20)); */
 	color: white;  /* text color */
 	text-align: right;
@@ -104,10 +105,10 @@ this out since I haven't listed every attribute for each class */
 	text-align: center;
 	border-width: 2px;
 	border-color: black;
-	border-radius: 15px;
+	border-radius: 10px;
 	font-family: 'Gugi';
 	font-size: 12pt;
-	padding: 6pt;
+	padding: 3pt 2pt 3pt 2pt;
 	margin: 0px;
 }
 
