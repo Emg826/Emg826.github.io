@@ -35,7 +35,7 @@ this out since I haven't listed every attribute for each class */
 	background-color: rgb(253, 254, 2);  /* leave this here not matter what you do for
 	background: it lessnes the blinding whiteflash that occurs when a new page loads */
 	/* background-image: linear-gradient(to bottom, orange, yellow, rgb(20, 20, 20)); */
-	background-image: linear-gradient(to bottom, rgb(253, 254, 2), cyan, rgb(254, 0, 246), orange);
+	background-image: linear-gradient(to right,  cyan, rgb(11, 255, 1),  yellow, rgb(254, 0, 246), cyan);
 /* images go into imgs folder and can be accessed as so: */
 }
 
