@@ -66,14 +66,14 @@ this out since I haven't listed every attribute for each class */
 .calculator-background {
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(100, 100, 100, 0.6));
 	border-radius: 16px;
+	border-width: 3px;
 	border-style: solid;
 	border-color: black;
-	table-layout: auto;
+	table-layout: fixed;
 	border-spacing: 0px;
 	border-collapse: collapse;
 	column-gap: 0px;
 	margin: 0px;
-	max-width: 70%;
 	border-spacing: 0;
 
 }
@@ -88,10 +88,9 @@ this out since I haven't listed every attribute for each class */
 	border-radius: 8px;
 	border-style: solid;
 	font-family: 'Gugi';
-	font-size: 12pt;
-	padding: 4pt;
-	margin: 0px;
-	max-width: 90%;
+	font-size: 14pt;
+	padding: 2pt 1pt 2pt 1pt;
+	margin: 8px;
 }
 
 .key {
@@ -106,8 +105,8 @@ this out since I haven't listed every attribute for each class */
 	border-style: ridge;
 	border-radius: 8px;
 	font-family: 'Gugi';
-	font-size: 13pt;
-	padding: 5pt 2pt 5pt 2pt;
+	font-size: 14pt;
+	padding: 10pt 4pt 10pt 4pt;
 	margin: 0px;
 }
 
@@ -144,7 +143,7 @@ used unless replaced in one of the below sets. */
 /* this is for styling the number eys, 0 through 9 */
 .number {
 	/* background-color: blue; */
-	color: yellow;
+	color: black;
 }
 
 /* this is for styling the utility keys: clear, backspace, enter */
