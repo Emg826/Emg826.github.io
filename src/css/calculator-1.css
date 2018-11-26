@@ -66,7 +66,7 @@ this out since I haven't listed every attribute for each class */
 .calculator-background {
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(100, 100, 100, 0.6));
 	border-radius: 16px;
-	border-style: ridge;
+	border-style: solid;
 	border-color: black;
 	table-layout: auto;
 	border-spacing: 0px;
@@ -106,8 +106,8 @@ this out since I haven't listed every attribute for each class */
 	border-style: ridge;
 	border-radius: 8px;
 	font-family: 'Gugi';
-	font-size: 12pt;
-	padding: 5pt 1pt 5pt 1pt;
+	font-size: 13pt;
+	padding: 5pt 2pt 5pt 2pt;
 	margin: 0px;
 }
 
@@ -144,7 +144,7 @@ used unless replaced in one of the below sets. */
 /* this is for styling the number eys, 0 through 9 */
 .number {
 	/* background-color: blue; */
-	color: indigo;
+	color: yellow;
 }
 
 /* this is for styling the utility keys: clear, backspace, enter */
@@ -185,7 +185,7 @@ you really wanted to make an ugly interface, you could make each key different. 
 .enter{ font-size: 25;}
 
 
-.td {
-	margin: 0px;
-	padding: 0px;
+table th tr td {
+	border-collapse: collapse;
+    border-spacing: 0px;
 }
