@@ -35,7 +35,7 @@ this out since I haven't listed every attribute for each class */
 
 
 .page-background {
-	background: rgb(14, 56, 64);
+	background-image: linear-gradient(rgb(14, 56, 64), rgb(99, 141, 133));
 
 /* images go into imgs folder and can be accessed as so: */
 }
@@ -79,8 +79,8 @@ this out since I haven't listed every attribute for each class */
 	border-style: double;
 	border-radius: 10px;
 	font-family: 'Pacifico';
-	font-size: 20px;
-	padding: 4px;
+	font-size: 15pt;
+	padding: 2px;
 }
 
 .key {
@@ -95,8 +95,8 @@ this out since I haven't listed every attribute for each class */
 	border-style: double;
 	border-color: rgb(51, 117, 112);
 	font-family: 'Pacifico';
-	font-size: 18px;
-	padding: 10px;
+	font-size: 15pt;
+	padding: 3pt;
 }
 
 /* These are just two simple feedback things for the keys. When the cursor

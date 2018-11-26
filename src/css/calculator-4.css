@@ -81,8 +81,9 @@ this out since I haven't listed every attribute for each class */
 	border-color: black;
 	border-radius: 0px;
 	font-family: serif;
-	font-size: 20px;
-	padding: 3px;
+	font-size: 15pt;
+	padding: 2px;
+	margin: 4px;
 }
 
 .key {
@@ -95,8 +96,8 @@ this out since I haven't listed every attribute for each class */
 	border-width: 2px;
 	border-color: black;
 	font-family: serif;
-	font-size: 20px;
-	padding: 10px;
+	font-size: 15pt;
+	padding: 6px;
 }
 
 /* These are just two simple feedback things for the keys. When the cursor

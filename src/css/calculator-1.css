@@ -117,7 +117,9 @@ clicked, it will style as son in .key:active. Note, these are not permanent
 changes; will revert back to the orignal style after stop hovering or after
 click */
 
-
+.key:active {
+	box-shadow: 0 0 8px 8px rgba(200, 200, 200, 0.5);
+}
 .key:focus {
 	outline: 0;
 }
