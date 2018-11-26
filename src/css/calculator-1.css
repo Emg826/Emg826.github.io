@@ -103,10 +103,10 @@ this out since I haven't listed every attribute for each class */
 	border-width: 2px;
 	border-color: black;
 	border-style: ridge;
-	border-radius: 8px;
+	border-radius: 7px;
 	font-family: 'Gugi';
-	font-size: 14pt;
-	padding: 10pt 4pt 10pt 4pt;
+	font-size: 11pt;
+	padding: 5pt 3pt 5pt 3pt;
 	margin: 0px;
 }
 
@@ -183,10 +183,4 @@ you really wanted to make an ugly interface, you could make each key different. 
 .minus{}
 .plus{}
 .rparen{}  */
-.enter{ font-size: 25;}
-
-
-table th tr td {
-	border-collapse: collapse;
-    border-spacing: 0px;
-}
+.enter{ font-size: 20;}
