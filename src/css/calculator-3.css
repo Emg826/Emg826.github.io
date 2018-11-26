@@ -80,12 +80,12 @@ this out since I haven't listed every attribute for each class */
 	/* background-image: linear-gradient(to bottom, orange, yellow, rgb(20, 20, 20)); */
 	background-image: url("../../imgs/wood.jpg");
 	color: lightgray;  /* text color */
-	text-align: center;
+	text-align: right;
 	border-width: 4px;
 	border-color: purple;
 	border-radius: 0px;
 	font-family: 'Schoolbell';
-	font-size: 20px;
+	font-size: 17px;
 	padding: 5px;
 }
 

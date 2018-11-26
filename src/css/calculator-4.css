@@ -81,7 +81,7 @@ this out since I haven't listed every attribute for each class */
 	border-color: black;
 	border-radius: 0px;
 	font-family: serif;
-	font-size: 15pt;
+	font-size: 13pt;
 	padding: 2px;
 	margin: 4px;
 }
@@ -137,6 +137,7 @@ used unless replaced in one of the below sets. */
 /* this is for styling the number eys, 0 through 9 */
 .number {
 	/* background-color: blue; */
+	background-color: white;
 
 }
 
@@ -144,6 +145,7 @@ used unless replaced in one of the below sets. */
 .utility {
 	/* background-color: orange; */
 	color: black;
+	background-color: white;
 }
 
 /* these are for editing the individual keys, which is unnecessary, but if
