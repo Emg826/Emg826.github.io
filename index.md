@@ -3,7 +3,9 @@ Thank you for your interest in participating in our experiment on user interface
 
 **You consent to and begin the experiment by clicking "I agree to participate. Let's begin!"**
 
+<center>
 [<img src="imgs/i_consent_button_200by200.png" alt="I agree and consent to participate. Let's begin!">](src/html/calculator-1.html)
+</center>
 
 *Questions and concerns can be direct to Eric Gabriel (egabriel19@wooster.edu) and
-Harrison Walls (hwall19@wooster.edu).*
+Harrison Walls (hwalls19@wooster.edu).*

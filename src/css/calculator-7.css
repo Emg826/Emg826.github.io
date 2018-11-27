@@ -134,7 +134,7 @@ used unless replaced in one of the below sets. */
 .symbol {
 	/* background-color: rgba(23, 214, 45, 0.5); */
 	background-image: linear-gradient(to bottom, indigo, green);
-	color: pink;
+	color: blue;
 }
 
 /* this is for styling the number eys, 0 through 9 */

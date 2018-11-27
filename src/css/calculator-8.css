@@ -35,10 +35,10 @@ this out since I haven't listed every attribute for each class */
 	background-color: rgb(0, 0, 0);  /* leave this here not matter what you do for
 	background: it lessnes the blinding whiteflash that occurs when a new page loads */
 
-	/* background-image: linear-gradient(to bottom, orange, yellow, rgb(20, 20, 20)); */
+  background-image: linear-gradient(to bottom, orange, yellow, rgb(20, 20, 20));
 
 /* images go into imgs folder and can be accessed as so: */
-	background-image: url("../../imgs/snake-skin.jpg");
+	/* background-image: url("../../imgs/snake-skin.jpg"); */
 	background-repeat: repeat-x repeat-y;
 }
 
@@ -67,7 +67,7 @@ this out since I haven't listed every attribute for each class */
 
 .calculator-background {
 	/* background-color: rgb(255, 255, 255); */
-	background-image: url("../../imgs/lava.jpg");
+	background-image: linear-gradient(to bottom, orange, blue, rgb(20, 20, 20));
 	/* background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg"); */
 
 	border-radius: 0px;
@@ -82,10 +82,10 @@ this out since I haven't listed every attribute for each class */
 	color: lightgray;  /* text color */
 	text-align: center;
 	border-width: 4px;
-	border-color: purple;
+	border-color: lightgreen;
 	border-radius: 0px;
-	font-family: 'Schoolbell';
-	font-size: 20px;
+	font-family: 'Arizonia';
+	font-size: 16px;
 	padding: 5px;
 }
 
@@ -97,7 +97,7 @@ this out since I haven't listed every attribute for each class */
 	color: black;  /* text color */
 	text-align: center;
 	border-width: 2px;
-	border-color: red;
+	border-color: green;
 	font-family: 'Eater';
 	font-size: 16px;
 	padding: 10px;
@@ -126,7 +126,7 @@ used unless replaced in one of the below sets. */
 /* this is for styling the function keys like sqrt, ln, exp, and so on*/
 .function {
 	background-image: url("../../imgs/weird-fractal.png");
-	font-family: 'Miltonian';
+	font-family: 'Rubik';
 	color: white;
 }
 
@@ -134,7 +134,7 @@ used unless replaced in one of the below sets. */
 .symbol {
 	/* background-color: rgba(23, 214, 45, 0.5); */
 	background-image: linear-gradient(to bottom, indigo, green);
-	color: pink;
+	color: blue;
 }
 
 /* this is for styling the number eys, 0 through 9 */

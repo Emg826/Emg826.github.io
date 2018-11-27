@@ -35,10 +35,9 @@ this out since I haven't listed every attribute for each class */
 	background-color: rgb(0, 0, 0);  /* leave this here not matter what you do for
 	background: it lessnes the blinding whiteflash that occurs when a new page loads */
 
-	/* background-image: linear-gradient(to bottom, orange, yellow, rgb(20, 20, 20)); */
+	 background-image: linear-gradient(to bottom, red, red, rgb(20, 20, 20));
 
 /* images go into imgs folder and can be accessed as so: */
-	background-image: url("../../imgs/snake-skin.jpg");
 	background-repeat: repeat-x repeat-y;
 }
 
@@ -67,39 +66,38 @@ this out since I haven't listed every attribute for each class */
 
 .calculator-background {
 	/* background-color: rgb(255, 255, 255); */
-	background-image: url("../../imgs/lava.jpg");
+	background-image: linear-gradient(to bottom, red, white, rgb(20, 20, 20));
 	/* background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg"); */
 
 	border-radius: 0px;
 	border-style: solid;
-	border-color: lightgreen;
+	border-color: blue;
 }
 
 .calculator-display {
 	/* background-color: rgb(100, 255, 255); */
-	/* background-image: linear-gradient(to bottom, orange, yellow, rgb(20, 20, 20)); */
-	background-image: url("../../imgs/wood.jpg");
-	color: lightgray;  /* text color */
+  background-image: linear-gradient(to bottom, blue, red, rgb(20, 20, 20));
+	color: teal;  /* text color */
 	text-align: center;
 	border-width: 4px;
-	border-color: purple;
+	border-color: white;
 	border-radius: 0px;
-	font-family: 'Schoolbell';
-	font-size: 20px;
+	font-family: 'Stoke';
+	font-size: 18px;
 	padding: 5px;
 }
 
 .key {
 	/* background-color: gray; */
 	/* background-color: rgba(200, 0, 255, 0.25); */
-	/* background-image: linear-gradient(to bottom, red, black, rgb(0, 255, 255)); */
+	background-image: linear-gradient(to bottom, red, blue, rgb(0, 255, 255));
 	/* background-image: url("../../imgs/milky-way-pixbay.jpg"); */
 	color: black;  /* text color */
 	text-align: center;
 	border-width: 2px;
 	border-color: red;
 	font-family: 'Eater';
-	font-size: 16px;
+	font-size: 14px;
 	padding: 10px;
 }
 
@@ -125,30 +123,30 @@ used unless replaced in one of the below sets. */
 
 /* this is for styling the function keys like sqrt, ln, exp, and so on*/
 .function {
-	background-image: url("../../imgs/weird-fractal.png");
-	font-family: 'Miltonian';
-	color: white;
+	background-image: linear-gradient(to bottom, red, red, rgb(20, 20, 20));
+	font-family: 'Stoke';
+	color: blue;
 }
 
 /* this is for styling the symbol keys like (, ., +, -, and so on */
 .symbol {
 	/* background-color: rgba(23, 214, 45, 0.5); */
-	background-image: linear-gradient(to bottom, indigo, green);
-	color: pink;
+	background-image: linear-gradient(to bottom, blue, blue);
+	color: white;
 }
 
 /* this is for styling the number eys, 0 through 9 */
 .number {
 	/* background-color: blue; */
-	background-image: linear-gradient(to top, yellow, pink, black);
+	background-image: linear-gradient(to top, blue, red, blue);
 
 }
 
 /* this is for styling the utility keys: clear, backspace, enter */
 .utility {
 	/* background-color: orange; */
-	background-image: linear-gradient(to left, black, gray, blue);
-	color: limegreen;
+	background-image: linear-gradient(to left, blue, white, blue);
+	color: blue;
 }
 
 /* these are for editing the individual keys, which is unnecessary, but if
