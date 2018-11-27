@@ -37,7 +37,19 @@
   <form></form>
   <center>
   <h1 class="header">Calculator 3 of 12</h1>
-  <p class="prompt-box">Prompt: </p>
+  <p align="left" class="prompt-box">
+  <b>Instructions:</b>
+  </br>• All multiplication must be explicit: 2(2) does not work, but 2*(2) does.
+  </br>• You must balance parentheses on your own, e.g., cannot do: <i>sqrt(2</i>.
+  </br>• You can scroll or slide the calculator display left or right if the display runs out of room.
+  </br>• Assume that everything else works as you would expect it to work.
+  </br>
+  </br>
+  </br> <b>Expression to compute:</b>
+  </br> (1 + tan(20)^2) - (1 / cos(20)^2)  + 2^8
+  </br>
+  </br> <b>Expected result:</b> approximately, 256
+  </p>
   </center>
 
    <!-- The scientific calculator is an HTML table object. It came
@@ -45,7 +57,7 @@
         <FORM NAME="sci-calc" novalidate>
         <TABLE class="calculator-background" cellpadding="0">
         <TR> <!-- This is the display screen -->
-          <TD COLSPAN="8" ALIGN="center"><INPUT class="calculator-display" NAME="display" VALUE="0" SIZE="20" MAXLENGTH="50" READONLY></TD>
+          <TD COLSPAN="8" ALIGN="center"><INPUT class="calculator-display" NAME="display" VALUE="0" SIZE="21" MAXLENGTH="100" READONLY></TD>
         </TR>
         <TR>
           <TD ALIGN="center"><INPUT class="key function exp" TYPE="button" VALUE="exp" ONCLICK="addFunction(this.form.display, 'e^(')"></TD>

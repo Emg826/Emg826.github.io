@@ -38,7 +38,7 @@ this out since I haven't listed every attribute for each class */
 	/* background-image: linear-gradient(to bottom, orange, yellow, rgb(20, 20, 20)); */
 
 /* images go into imgs folder and can be accessed as so: */
-	background-image: url("https://c1.staticflickr.com/9/8453/7998082035_fd719ffdcd_b.jpg");
+	background-image: url("../../imgs/page3-fractal-background.jpg");
 	background-repeat: repeat-x repeat-y;
 }
 
@@ -67,7 +67,7 @@ this out since I haven't listed every attribute for each class */
 
 .calculator-background {
 	/* background-color: rgb(255, 255, 255); */
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/43/Fractal_09.jpg");
+	background-image: url("../../imgs/page3-calculator-background.jpg");
 	/* background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg"); */
 	background-size: contain;
 	border-radius: 0px;
@@ -78,8 +78,9 @@ this out since I haven't listed every attribute for each class */
 .calculator-display {
 	/* background-color: rgb(100, 255, 255); */
 	/* background-image: linear-gradient(to bottom, orange, yellow, rgb(20, 20, 20)); */
-	background-image: url("https://c1.staticflickr.com/4/3338/3593556338_4c2be58114_b.jpg");
-	background-size: contain;
+	background-color: rgb(0, 0, 0);
+	background-image: url("../../imgs/page3-calculator-display.jpg");
+	background-size: cover;
 
 	color: white;  /* text color */
 	text-align: right;
@@ -136,8 +137,8 @@ used unless replaced in one of the below sets. */
 /* this is for styling the symbol keys like (, ., +, -, and so on */
 .symbol {
 	/* background-color: rgba(23, 214, 45, 0.5); */
-	background-image: url("https://www.publicdomainpictures.net/pictures/20000/nahled/pretty-fractal-1312560688A9X.jpg");
-	background-size: cover;
+	background-image: url("../../imgs/page3-symbols.jpg");
+	background-size: contain;
 	border-color: limegreen;
 	color: yellow;
 }
@@ -145,16 +146,16 @@ used unless replaced in one of the below sets. */
 /* this is for styling the number eys, 0 through 9 */
 .number {
 	/* background-color: blue; */
-	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvi2YhJmK79orzdoIo_ifRRdQ55c9TNRt6WAcH5PyMKi04YCymTA");
-	background-size: cover;
+	background-image: url("../../imgs/page3-numbers.jpg");
+	background-size: contain;
 	color: white;
 }
 
 /* this is for styling the utility keys: clear, backspace, enter */
 .utility {
 	/* background-color: orange; */
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/78/Fractal_05.jpg");
-	background-size: cover;
+	background-image: url("../../imgs/page3-utilities.jpg");
+	background-size: contain;
 	color: white;
 	border-color: pink;
 }
