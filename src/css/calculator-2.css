@@ -73,7 +73,7 @@ this out since I haven't listed every attribute for each class */
 .calculator-display {
 	background-color: white;
 	color: rgb(14, 56, 64);  /* text color */
-	text-align: right;
+	text-align: left;
 	border-width: 4px;
 	border-color: rgb(51, 117, 112);
 	border-style: double;

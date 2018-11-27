@@ -27,7 +27,7 @@ function changeSign(input) {
 function compute(form) {
 	var str = form.display.value
 
-	str = str.replace(/e/g, 'Math.exp')
+	str = str.replace(/e\^/g, 'Math.exp')
 	str = str.replace(/ln/g, 'Math.log')
 	str = str.replace(/sqrt/g, 'Math.sqrt')
 	str = str.replace(/\^/g, '**')
