@@ -38,6 +38,8 @@ this out since I haven't listed every attribute for each class */
 /* images go into imgs folder and can be accessed as so: */
 	background-image: url("../../imgs/milky-way-pixbay.jpg");
 	background-repeat: space;
+	background-repeat: repeat-y;
+
 	background-position: top center;
 }
 
@@ -88,7 +90,7 @@ this out since I haven't listed every attribute for each class */
 	border-radius: 8px;
 	border-style: solid;
 	font-family: 'Gugi';
-	font-size: 11pt;
+	font-size: 12pt;
 	padding: 2pt 2pt 2pt 2pt;
 	margin: 11px;
 }
@@ -105,8 +107,8 @@ this out since I haven't listed every attribute for each class */
 	border-style: ridge;
 	border-radius: 7px;
 	font-family: 'Gugi';
-	font-size: 11pt;
-	padding: 5pt 3pt 5pt 3pt;
+	font-size: 13pt;
+	padding: 8pt 4pt 8pt 4pt;
 	margin: 0px;
 }
 
