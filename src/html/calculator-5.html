@@ -54,7 +54,7 @@
           <TD ALIGN="center"><INPUT class="key symbol divide" TYPE="button" VALUE="  /  " ONCLICK="addChar(this.form.display, '/')"></TD>
         </TR>
         <TR>
-          <TD ALIGN="center"><INPUT class="key function ln"  TYPE="button" VALUE=" ln " ONCLICK="addFunction(this.form.display, 'log(')"></TD>
+          <TD ALIGN="center"><INPUT class="key function ln"  TYPE="button" VALUE=" ln " ONCLICK="addFunction(this.form.display, 'ln(')"></TD>
           <TD ALIGN="center"><INPUT class="key number four" TYPE="button" VALUE="  4  " ONCLICK="addChar(this.form.display, '4')"></TD>
           <TD ALIGN="center"><INPUT class="key number five" TYPE="button" VALUE="  5  " ONCLICK="addChar(this.form.display, '5')"></TD>
           <TD ALIGN="center"><INPUT class="key number six" TYPE="button" VALUE="  6  " ONCLICK="addChar(this.form.display, '6')"></TD>
@@ -85,10 +85,7 @@
           <TD ALIGN="center"><INPUT class="key utility clear" TYPE="button" VALUE="clear" ONCLICK="this.form.display.value = 0 "></TD>
           <TD ALIGN="center" COLSPAN="3"><INPUT class="key utility backspace" TYPE="button" VALUE="backspace" ONCLICK="deleteChar(this.form.display)"></TD>
           <TD ALIGN="center"> <INPUT class="key utility enter" TYPE="button" VALUE=" = " NAME="enter" ONCLICK="if (checkNum(this.form.display.value))
-                            { var xhttp = new XMLHttpRequest();
-                              xhttp.open('GET', 'http://api.mathjs.org/v4/?expr='+this.form.display.value, false);
-                              xhttp.send();
-                              this.form.display.value = xhttp.responseText;} "> </TD>
+                            { compute(this.form)} "> </TD>
         </TR>
         </TABLE>
         </FORM>

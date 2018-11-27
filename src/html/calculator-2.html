@@ -38,14 +38,20 @@
   <form></form>
   <center>
   <h1 class="header">Calculator 2 of 12</h1>
-  <p class="prompt-box">Earth's acceleration due to gravity is 32 feet per second**2.
-If you were a planet, what would be your acceleration due to gravity?
-</br>
-</br>
-Expression to compute: 1.07*10**-9 * (your_weight_in_pounds / (your_height_in_feet / 2)**2).
-<a href="https://hypertextbook.com/facts/2004/JahshirahRossi.shtml">1</a>
-<a href="http://www.mhhe.com/engcs/electrical/kasap2/graphics/Tables&Constants/Constants.html">2</a
+  <p align="left" class="prompt-box">
+  <b>Instructions:</b>
+  </br>• All multiplication must be explicit: 2(2) does not work, but 2*(2) does.
+  </br>• You must balance parentheses on your own, e.g., cannot do: <i>sqrt(2</i>.
+  </br>• You can scroll or slide the calculator display left or right if the display runs out of room.
+  </br>• Assume that everything else works as you would expect it to work.
+  </br>
+  </br>
+  </br> <b>Expression to compute:</b>
+  </br> sqrt(tan(cos(sin( 0.5 * 3.14159 ))))^23
+  </br>
+  </br> <b>Expected result:</b> approximately, 0.00280
 </p>
+
   </center>
 
    <!-- The scientific calculator is an HTML table object. It came
@@ -63,7 +69,7 @@ Expression to compute: 1.07*10**-9 * (your_weight_in_pounds / (your_height_in_fe
           <TD ALIGN="center"><INPUT class="key symbol divide" TYPE="button" VALUE="  /  " ONCLICK="addChar(this.form.display, '/')"></TD>
         </TR>
         <TR>
-          <TD ALIGN="center"><INPUT class="key function ln"  TYPE="button" VALUE=" ln " ONCLICK="addFunction(this.form.display, 'log(')"></TD>
+          <TD ALIGN="center"><INPUT class="key function ln"  TYPE="button" VALUE=" ln " ONCLICK="addFunction(this.form.display, 'ln(')"></TD>
           <TD ALIGN="center"><INPUT class="key number four" TYPE="button" VALUE="  4  " ONCLICK="addChar(this.form.display, '4')"></TD>
           <TD ALIGN="center"><INPUT class="key number five" TYPE="button" VALUE="  5  " ONCLICK="addChar(this.form.display, '5')"></TD>
           <TD ALIGN="center"><INPUT class="key number six" TYPE="button" VALUE="  6  " ONCLICK="addChar(this.form.display, '6')"></TD>
@@ -94,10 +100,7 @@ Expression to compute: 1.07*10**-9 * (your_weight_in_pounds / (your_height_in_fe
           <TD ALIGN="center"><INPUT class="key utility clear" TYPE="button" VALUE="clear" ONCLICK="this.form.display.value = 0 "></TD>
           <TD ALIGN="center" COLSPAN="3"><INPUT class="key utility backspace" TYPE="button" VALUE="backspace" ONCLICK="deleteChar(this.form.display)"></TD>
           <TD ALIGN="center"> <INPUT class="key utility enter" TYPE="button" VALUE=" = " NAME="enter" ONCLICK="if (checkNum(this.form.display.value))
-                            { var xhttp = new XMLHttpRequest();
-                              xhttp.open('GET', 'http://api.mathjs.org/v4/?expr='+this.form.display.value, false);
-                              xhttp.send();
-                              this.form.display.value = xhttp.responseText;} "> </TD>
+                            { compute(this.form)} "> </TD>
         </TR>
         </TABLE>
         </FORM>

@@ -25,7 +25,17 @@ function changeSign(input) {
 
 
 function compute(form) {
-	form.display.value = mathjs.eval(form.display.value)
+	var str = form.display.value
+
+	str = str.replace(/e/g, 'Math.exp')
+	str = str.replace(/ln/g, 'Math.log')
+	str = str.replace(/sqrt/g, 'Math.sqrt')
+	str = str.replace(/\^/g, '**')
+	str = str.replace(/cos/g, 'Math.cos')
+	str = str.replace(/sin/g, 'Math.sin')
+	str = str.replace(/tan/g, 'Math.tan')
+
+	form.display.value = eval(str)
 }
 
 function checkNum(str) {
