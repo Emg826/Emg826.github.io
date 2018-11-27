@@ -5,28 +5,11 @@ function addChar(input, character) {
 		input.value += character
 }
 
-function cos(form) {
-	form.display.value = Math.cos(eval(form.display.value));
-}
-
-function sin(form) {
-	form.display.value = Math.sin(eval(form.display.value));
-}
-
-function tan(form) {
-	form.display.value = Math.tan(eval(form.display.value));
-}
-
-function sqrt(form) {
-	form.display.value = Math.sqrt(eval(form.display.value));
-}
-
-function ln(form) {
-	form.display.value = Math.log(eval(form.display.value));
-}
-
-function exp(form) {
-	form.display.value = Math.exp(eval(form.display.value));
+function addFunction(input, openParenFunc) {
+	if(input.value == null || input.value == "0")
+		input.value = openParenFunc
+	else
+		input.value += openParenFunc
 }
 
 function deleteChar(input) {
@@ -40,12 +23,9 @@ function changeSign(input) {
 		input.value = "-" + input.value
 }
 
-function compute(form) {
-	form.display.value = eval(form.display.value)
-}
 
-function square(form) {
-	form.display.value = eval(form.display.value) * eval(form.display.value)
+function compute(form) {
+	form.display.value = mathjs.eval(form.display.value)
 }
 
 function checkNum(str) {
@@ -53,11 +33,24 @@ function checkNum(str) {
 		var ch = str.substring(i, i+1)
 		if (ch < "0" || ch > "9") {
 			if (ch != "/" && ch != "*" && ch != "+" && ch != "-" && ch != "."
-				&& ch != "(" && ch!= ")") {
-				alert("invalid entry!")
-				return false
+				&& ch != "(" && ch!= ")" && ch != "^" && ch != "e") {
+
+				if (str.substring(i, i+1+2) == 'exp' || str.substring(i, i+1+2) == 'cos'
+ 					|| str.substring(i, i+1+2) == 'sin' || str.substring(i, i+1+2) == 'tan') {
+					i += 3
+				}
+				else if (str.substring(i, i+1+3) == 'sqrt') {
+					i += 4
+				}
+				else if (str.substring(i, i+1+1) == 'ln') {
+					i += 2
+				}
+				else {
+					alert("invalid entry!")
+					return false
 				}
 			}
 		}
-		return true
+	}
+	return true
 }

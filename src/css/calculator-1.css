@@ -61,6 +61,7 @@ this out since I haven't listed every attribute for each class */
 	width: 80%;
 	border: 5px;
 	border-style: solid;
+	padding: 3px;
 }
 
 
@@ -108,7 +109,7 @@ this out since I haven't listed every attribute for each class */
 	border-radius: 7px;
 	font-family: 'Gugi';
 	font-size: 13pt;
-	padding: 8pt 4pt 8pt 4pt;
+	padding: 7pt 3pt 7pt 3pt;
 	margin: 0px;
 }
 
