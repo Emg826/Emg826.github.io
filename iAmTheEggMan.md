@@ -1,4 +1,5 @@
 ---
-theme: jekyll-theme-midnight
+title: I Am the Walrus
+theme: default
 ---
 Goo Goo G'Joob
